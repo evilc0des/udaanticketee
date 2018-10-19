@@ -1,0 +1,12 @@
+.screen-list{
+    list-style: none;
+    padding-left: 8px;
+}
+.screen-item{
+    padding: 16px 8px;
+    cursor: pointer;
+}
+
+.screen-item:hover{
+    border: 1px solid black;
+}

@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+.container h1{
+    font-family: 'Lobster', sans-serif;
+    font-size: 3em;
+    margin-top: 0px;
+}
+
+.login-btns{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding: 12px 32px;
+    color: white;
+    margin: 8px;
+    border-radius: 6px;
+}
+
+.fb-btn{
+    background-color: rgb(33, 33, 129);
+}
+
+.tw-btn{
+    background-color: rgb(42, 119, 233);
+}

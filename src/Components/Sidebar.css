@@ -1,0 +1,24 @@
+.App-Sidebar{
+    color: white;
+    background-color: rgb(32, 32, 32);
+    padding: 32px 16px;
+}
+
+.App-Sidebar h1{
+
+}
+
+.App-Sidebar .add-screen-button{
+    position: absolute;
+    bottom: 32px;
+    background-color: rgb(113, 113, 240);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.App-Sidebar .add-screen-button:hover{
+
+    background-color: rgb(57, 57, 221);
+}
